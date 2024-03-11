@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto CSS Cidade</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    img{
+        max-width: 1080px;
+        max-height: 1920px;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    Header {
+        background-image :linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        padding: 30px;
+        text-align: center;
+        border: solid black;
+        border-radius: 15px;
+        font-size: 35px;
+        color: black;
+    }
+
+    Section {
+        display: -webkit-flex;
+        display: flex;
+    }
+    nav{
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background-image: linear-gradient(90deg, rgba(158,95,179,1) 0%, rgba(121,196,198,1) 100%);
+        padding: 20px;
+    }
+
+    nav ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #f1f1f1;
+        padding: 10px;
+    }
+
+    footer{
+        background-color: #777;
+        padding: 10p;
+        text-align: right;
+        color: white;
+        }
+    .volta{
+
+    }
+
+    Section{
+        -webkit-flex-direction:column;
+        flex-direction: column;
+    }
+    .coluna{
+        float: left;
+        width: 33.33%;
+    }
+    .row::after{
+        content:"";
+        clear: both;
+        Display: table;
+    }
+</style>
+<body style="background: linear-gradient(129deg, rgba(255,0,0,1) 0%, rgba(246,237,126,1) 31%, rgba(0,212,255,1) 100%);">
+
+<header>
+    <p style="font-size: 75px;color: rgb(0, 0, 0);">Cidades Para Conhecer</p>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="#C1">Tóquio</a></li>
+            <li><a href="#C2">Paris</a></li>
+            <li><a href="#C3">Nova York</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <p style="font-size: 35px; color: rgb(36, 6, 6);" id="C1"><b>Tóquio:</b></p>
+        <div class="row">
+            <div class="coluna">
+                <img src="tokyo.jpg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="tokyo2.jpg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="tokyo3.jpg" alt="imagem">
+            </div>
+        </div>
+        <p>Área total: 2.194,07 km².
+
+            População total: 13.960.236 habitantes.<br>
+            <hr>
+            Densidade demográfica: 6.355 hab./km².<br.>
+            <hr>
+            Clima: temperado.<br>
+            <hr>
+            Altitude: 22 metros.<br>
+            <hr>
+            Fuso horário: GMT +9 horas.<br>
+            <hr>
+            IDH: 0,941.<br>
+            <hr>
+            PIB: US$ 920,9 bilhões.<br>
+            <hr>
+            Fundação: 1457, sob o nome de Edo.</p>
+            <hr>
+            <p>Bandeira de Tóquio:</p><br>
+            <img src="BandeiraT.webp" width="250px">
+        <p>Tóquio (em japonês: 東京; romaniz.:Tōkyō, literalmente "capital do Leste"), oficialmente Metrópole de Tóquio, é a capital do Japão e uma das 47 prefeituras do país. Situa-se em Honshu, a maior ilha do arquipélago.<br>
+            Um de seus monumentos mais famosos é a Torre de Tóquio.</p>
+            <a href="https://pt.wikipedia.org/wiki/T%C3%B3quio">Mais Informações</a>
+        <hr>
+        
+        
+    </article>
+    <article>
+        <p style="font-size: 35px; color: rgb(36, 6, 6);" id="C2"><b>Paris:</b></p>
+        <div class="row">
+            <div class="coluna">
+                <img src="Paris.jpeg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="paris2.jpeg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="paris3.JPG" alt="imagem">
+            </div>
+        </div>
+        <p> Data de Fundação: 250 a.C.<br> 
+<hr>                      
+            Gentílico: parisiense. <br> 
+<hr>           
+            População: 2,89 milhões de habitantes (estimativa 2022).<br> 
+            <hr>
+            Área (em km²): 105,39 .<br>
+            <hr>
+            Densidade Demográfica (habitantes por km²): 26.650 (estimativa 2022).<br>
+            <hr>
+            Principais Atividades Econômicas: comércio, serviços, turismo e finanças.<br>
+            <hr>
+            Rios Principais: rio Sena.<br>
+            <hr>
+            Principais bairros: Le Marais, Saint-Germain-des-Prés, Montmartre, Champs-Élysées, Latino e Belleville.<br>
+            <hr>
+            Temperatura média anual: 15 °C.<br>
+            <hr>
+            Clima: oceânico semicontinental.<br>
+            <hr>
+            Índice Pluviométrico anual: 700 mm.<br>
+            <hr>
+            Altitude média: 79 metros.<br>
+            <hr>
+            Localização geográfica: região norte da França.<br>
+            <hr>
+            Fuso horário: UTC+1.<br>
+            <hr>
+            Principal aeroporto: Aeroporto de Paris-Charles de Gaulle</p><br>
+<hr>
+            <img src="bdparis.jpg" width="250px">
+            <p>Desde o século XVII, Paris é um dos principais centros de finanças, diplomacia, comércio, moda, ciência e artes da Europa. <br>
+                Abrangendo numerosos monumentos e por conta de seu considerável papel político e econômico, Paris é também uma importante cidade na história do mundo.</p>
+            <a href="https://pt.wikipedia.org/wiki/Paris">Mais informações</a>
+        <hr>
+    </article>
+    <article>
+        <p style="font-size: 35px; color: rgb(36, 6, 6);" id="C3"><b>New York:</b></p>
+        <div class="row">
+            <div class="coluna">
+                <img src="ny2.jpeg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="ny.jpg" alt="imagem">
+            </div>
+            <div class="coluna">
+                <img src="ny.jpeg" alt="imagem">
+            </div>
+        </div>
+        <p>Data de Fundação: ano de 1625 
+<hr>
+            Gentílico: Novaiorquino.
+            <hr> 
+            Localização geográfica: região nordeste dos EUA.
+            <hr>
+            População: 8,9 milhões de habitantes (estimativa 2022). 
+            <hr>
+            Área (em km²): 1.214 .
+            <hr>
+            Densidade Demográfica (habitantes por km²): 7.270 (estimativa 2022).
+            <hr>
+            Administração: 51 distritos legislativos .
+            <hr>
+            Principais Atividades Econômicas: finanças, comércio e serviços.
+            <hr>
+            Rio Principal: rio Hudson.
+            <hr>
+            Temperatura média anual: 18 °C.
+            <hr>
+            Clima: temperado continental úmido.
+            <hr>
+            Índice Pluviométrico anual: 1.100 mm.
+            <hr>
+            Principal aeroporto: Aeroporto Internacional John F. Kennedy.</p>
+            <hr>
+            <img src="bdny.jpg" width="250px">
+        <p>Nova Iorque (também referida como Nova York), oficialmente Cidade de Nova Iorque (em inglês: New York City), é a cidade mais populosa dos Estados Unidos.<br>
+            Nova Iorque abriga a sede da Organização das Nações Unidas (ONU), sendo um importante centro para assuntos internacionais e amplamente considerada como a capital cultural do mundo.</p>
+            <a href="https://pt.wikipedia.org/wiki/Nova_Iorque">Mais Informações</a><br>
+            <br>
+            <br>
+            <br>
+        </article>
+</section>
+
+<footer>
+    <p><a href="#C4">Voltar ao Inicio</a></p>
+
+</footer>
+
+
+
+</body>
+</html>
